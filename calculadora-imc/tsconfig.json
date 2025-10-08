@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",           // Versão do JavaScript que será gerada
+    "module": "commonjs",         // Sistema de módulos do Node.js
+    "rootDir": "./src",            // Diretório raiz do código fonte
+    "outDir": "./dist",            // Diretório de saída da compilação
+    "strict": true,                // Ativa todas as verificações estritas do TS
+    "esModuleInterop": true,       // Permite importar módulos CommonJS
+    "forceConsistentCasingInFileNames": true // Garante que maiúsculas/minúsculas batam
+  },
+  "exclude": ["node_modules", "tests"]  // Ignora a pasta de testes
+}

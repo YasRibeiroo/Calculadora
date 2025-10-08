@@ -1,0 +1,20 @@
+{
+  "name": "calculadora-imc",
+  "version": "1.0.0",
+  "description": "Calculadora de IMC com testes unitários Jest + TypeScript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.9.3"
+  }
+}
